@@ -3,7 +3,7 @@ import Navbar from './Component/Home/Navbar';
 
 const App = () => {
   return (
-    <div>
+    <div className='font-sans'>
       <Navbar/>
     </div>
   );

@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme{
+    --color-button: #23A6F0;
+}
+
+@layer utilities{
+    .container{
+        @apply max-w-270 mx-auto
+    }
+}
