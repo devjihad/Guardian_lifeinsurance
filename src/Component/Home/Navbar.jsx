@@ -3,7 +3,7 @@ import { IoMdArrowRoundForward } from "react-icons/io";
 import logo from './../../assets/logo.png'
 const Navbar = () => {
     return (
-        <div className='flex justify-between items-center container'>
+        <div className='flex justify-between items-center container text-white py-3'>
             <img src={logo} alt=""  className='w-30 h-16'/>
             <ul className='flex items-center gap-5 font-semibold text-[16px] '>
                 <li>Home</li>

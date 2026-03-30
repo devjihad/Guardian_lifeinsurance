@@ -6,6 +6,6 @@
 
 @layer utilities{
     .container{
-        @apply max-w-270 mx-auto
+        @apply max-w-300 mx-auto
     }
 }

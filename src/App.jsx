@@ -1,10 +1,12 @@
 import React from 'react';
-import Navbar from './Component/Home/Navbar';
+
+import Hero from './Component/Home/Hero';
 
 const App = () => {
   return (
     <div className='font-sans'>
-      <Navbar/>
+     
+      <Hero/>
     </div>
   );
 };
