@@ -12,7 +12,7 @@ const Navbar = () => {
                 <li>Contact</li>
             </ul>
 
-            <div className='flex gap-3'>
+            <div className='flex gap-3 '>
                 <button className='px-5 py-2 border border-gray-400 rounded-xl font-semibold text-[16px] hover:bg-button hover:text-white'>Login</button>
                 <button className='px-5 py-2 border border-gray-400 rounded-xl font-semibold flex gap-2 items-center text-[16px] hover:bg-button hover:text-white '>Become a Member <IoMdArrowRoundForward/></button>
             </div>
