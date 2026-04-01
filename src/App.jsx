@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from './Component/Home/Hero';
 import Threecard from './Component/Home/Threecard';
 import Industry from './Component/Home/Industry';
+import FiveCard from './Component/Home/FiveCard';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Hero/>
       <Threecard/>
       <Industry/>
+      <FiveCard/>
     </div>
   );
 };
