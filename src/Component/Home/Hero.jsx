@@ -19,10 +19,8 @@ const Hero = () => {
   console.log(Slider);
 
   return (
-    <div
-      className="bg-cover bg-center min-h-150 r"
-      style={{ backgroundImage: `url(${banner})` }}
-    >
+    <div className="mb-50 ">
+      <div className="bg-cover bg-center min-h-150 r"style={{ backgroundImage: `url(${banner})` }} >
       <Navbar />
 
       <div className="container">
@@ -48,7 +46,7 @@ const Hero = () => {
         
           <div className="absolute -bottom-25  left-1/2 -translate-x-1/2">
             <div className="flex gap-8  w-full">
-              <div className="px-10 py-5 w-67.5 bg-white rounded-lg">
+              <div className="px-10 py-5 w-67.5 bg-gray-100 rounded-lg">
                 <img src={man} alt="" />
                 <h4 className="text-[20px] font-bold">Peace of Mind</h4>
                 <p className="text-[14px] text-gray-500">
@@ -56,7 +54,7 @@ const Hero = () => {
                 </p>
               </div>
 
-              <div className="px-10 py-5 w-67.5 bg-white rounded-lg">
+              <div className="px-10 py-5 w-67.5 bg-gray-100 rounded-lg">
                 <img src={man} alt="" />
                 <h4 className="text-[20px] font-bold">Set for Life</h4>
                 <p className="text-[14px] text-gray-500">
@@ -64,7 +62,7 @@ const Hero = () => {
                 </p>
               </div>
 
-              <div className="px-10 py-5 w-67.5 bg-white rounded-lg ">
+              <div className="px-10 py-5 w-67.5 bg-gray-100 rounded-lg ">
                 <img src={man} alt="" />
                 <h4 className="text-[20px] font-bold">100% Satisfaction</h4>
                 <p className="text-[14px] text-gray-500">
@@ -72,7 +70,7 @@ const Hero = () => {
                 </p>
               </div>
 
-              <div className="px-10 py-5 w-67.5 bg-white rounded-lg ">
+              <div className="px-10 py-5 w-67.5 bg-gray-100 rounded-lg ">
                 <img src={man} alt="" />
                 <h4 className="text-[20px] font-bold">100% Trasted </h4>
                 <p className="text-[14px] text-gray-500">
@@ -83,6 +81,7 @@ const Hero = () => {
           </div>
         
       </div>
+    </div>
     </div>
   );
 };
