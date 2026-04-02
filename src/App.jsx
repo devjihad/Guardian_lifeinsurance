@@ -4,6 +4,7 @@ import Hero from './Component/Home/Hero';
 import Threecard from './Component/Home/Threecard';
 import Industry from './Component/Home/Industry';
 import FiveCard from './Component/Home/FiveCard';
+import Pricing from './Component/Home/Pricing';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Threecard/>
       <Industry/>
       <FiveCard/>
+      <Pricing/>
     </div>
   );
 };
