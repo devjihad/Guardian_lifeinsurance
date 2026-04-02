@@ -5,6 +5,7 @@ import Threecard from './Component/Home/Threecard';
 import Industry from './Component/Home/Industry';
 import FiveCard from './Component/Home/FiveCard';
 import Pricing from './Component/Home/Pricing';
+import Apointment from './Component/Home/Apointment';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Industry/>
       <FiveCard/>
       <Pricing/>
+      <Apointment/>
     </div>
   );
 };
