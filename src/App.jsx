@@ -7,6 +7,7 @@ import FiveCard from './Component/Home/FiveCard';
 import Pricing from './Component/Home/Pricing';
 import Apointment from './Component/Home/Apointment';
 import Contact from './Component/Home/Contact';
+import Footer from './Component/Home/Footer';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Pricing/>
       <Apointment/>
       <Contact/>
+      <Footer/>
     </div>
   );
 };
