@@ -16,7 +16,7 @@ const Apointment = () => {
              </div>
 
            <div className='absolute top-120 right-1/2 translate-x-1/2'>
-             <div className=' bg-white w-210 flex rounded-lg '>
+             <div className=' bg-gray-50 w-210 flex rounded-lg '>
                 <div className='w-1/3 '>
                     <img src={right} alt="" />
                 </div>

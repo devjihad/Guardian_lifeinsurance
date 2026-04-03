@@ -6,6 +6,7 @@ import Industry from './Component/Home/Industry';
 import FiveCard from './Component/Home/FiveCard';
 import Pricing from './Component/Home/Pricing';
 import Apointment from './Component/Home/Apointment';
+import Contact from './Component/Home/Contact';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <FiveCard/>
       <Pricing/>
       <Apointment/>
+      <Contact/>
     </div>
   );
 };
